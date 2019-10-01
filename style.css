@@ -28,12 +28,14 @@ header {
 .heading>h1 {
     padding: 15px 100px 15px 15px;
     font-size: 40px;
+    font-family: cursive;
 }
 
 .main-menu>h2 {
     display: inline-block;
-    font-size: 35px;
-    padding: 10px;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-menu>h2>a {
