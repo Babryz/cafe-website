@@ -70,15 +70,13 @@ header {
     width: 40%;
 }
 
-.cafe-inside>article {
+.cafe-inside>p {
     margin: 10px;
     height: 162px;
     width: 100px;
     align-self: center;
-}
-
-.cafe-inside>article>p {
     color: whitesmoke;
+    border: 1px solid black;
 }
 
 .latte-art {
