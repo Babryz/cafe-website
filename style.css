@@ -5,7 +5,7 @@
 }
 
 body {
-
+    background-image: linear-gradient(to bottom right, rgb(228, 173, 173), rgb(176, 221, 176))
 }
 
 header {
@@ -13,6 +13,7 @@ header {
     padding: 15px;
     display: flex;
     width: 100%;
+    border: 1px solid black;
 }
 
 .main-menu {
@@ -46,3 +47,38 @@ header {
 .main-menu>h2>a:hover {
     text-decoration: underline;
 }
+
+.main-content {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+}
+
+.video {
+    margin: 10px;
+    display: inline-block;
+}
+
+.latte-art {
+    margin: 10px;
+    display: inline-block;
+}
+
+.cafe-inside {
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+        flex-basis: row;
+}
+
+.cafe-inside>img {
+    margin: 10px;
+}
+
+.cafe-inside>article {
+    margin: 10px;
+    height: 162px;
+    width: 100px;
+}
+
