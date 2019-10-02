@@ -19,6 +19,7 @@ header {
     display: flex;
     width: 100%;
     border: 1px solid black;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .main-menu {
@@ -80,11 +81,11 @@ article {
     color: whitesmoke;
 }
 
-/*.cafe-inside>article>*/p {
+p {
     font-size: 20px;
 }
 
-/*.cafe-inside>article>*/h3 {
+h3 {
     font-size: 30px;
 }
 
@@ -141,7 +142,23 @@ embed {
 footer {
     background-image: linear-gradient(to right, rgb(248, 0, 0), yellowgreen);
     padding: 15px;
-    display: flex;
     width: 100%;
     border: 1px solid black;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.lower-nav {
+    display: flex;
+}
+
+.lower-nav>p>a {
+    color: black;
+    text-decoration: none;
+}
+
+.lower-nav>p>a:hover {
+    text-decoration: underline;
 }
