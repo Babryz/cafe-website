@@ -9,10 +9,10 @@
 </head>
 <body>
     <header>
-        <section class="heading">
+        <div class="heading">
             <h1>Babryz Coffee</h1>
             <em class="quote">"The coffee break even the gods dream about"</em>
-        </section>
+        </div>
         <nav class="main-menu">
             <h2><a href="#">Home</a></h2>
             <h2><a href="#">Coffee</a></h2>
@@ -23,15 +23,15 @@
     </header>
     <main>
         <section class="main-content">
-            <section class="cafe-inside main-section">
+            <div class="cafe-inside">
                 <article>
                     <h3>"Our own designs"</h3>
                     <p>We always try do design our cafés so that everyone can relax as much as possible, there is a
                         a bit for everybody in them. Welcome in and experience the most comfortable form of having a swedish fika!</p>
                 </article>
                 <img src="./video-pdf/cafe_inside.jpg" alt="the inside of on of our locations">
-            </section>
-            <section class="latte-art main-section">
+            </div>
+            <div class="latte-art">
                 <img src="./video-pdf/latte_art.jpg" alt="fancy latte art with different types of milk">
                 <article>
                     <h3>"A fika that anybody can enjoy"</h3>
@@ -39,8 +39,8 @@
                         enjoy it otherwise. Therefore you can always ask our baristas to change to a more friendly option for you!
                     </p>
                 </article>
-            </section>  
-            <section class="video main-section">
+            </div>  
+            <div class="video">
                 <article>
                     <h3>"A see-through business"</h3>
                     <p>Since we don´t like the secrecy-style that many businesses play around with, we try to be as
@@ -49,19 +49,29 @@
                 </article>
                 <video 
                 src="./video-pdf/pastries_asmr.mp4" controls></video>
-            </section>
-            <section class="pdf">
-                <embed src="./video-pdf/cafe-menu.pdf" type="application/pdf" width="100%" height="100%">
-            </section>
+            </div>
+            <div class="pdf">
+                <h3>Menu</h3>
+                <embed src="./video-pdf/cafe-menu.pdf" type="application/pdf">
+            </div>
         </section>
     </main>
     <footer>
-        <nav class="lower-nav">
-            <p><a href="#">Privacy Policy |</a></p> 
-            <p><a href="#"> Terms of use |</a></p>
-            <p><a href="#"> Customer Service</a></p>
-        </nav>
-        <p>©2019 Babryz Coffee AB. All rights reserved.</p>
+        <div class="copyright">
+            <nav class="lower-nav">
+                <p><a href="#">Privacy Policy |</a></p> 
+                <p><a href="#"> Terms of use |</a></p>
+                <p><a href="#"> Customer Service</a></p>
+            </nav>
+            <p>©2019 Babryz Coffee AB. All rights reserved.</p>
+        </div>
+        <div class="labels">    
+            <p><a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a></p>
+        </div>
     </footer>
 </body>
 </html>
