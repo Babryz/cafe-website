@@ -157,6 +157,7 @@ footer {
 .lower-nav>p>a {
     color: black;
     text-decoration: none;
+    margin: 3px;
 }
 
 .lower-nav>p>a:hover {
