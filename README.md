@@ -3,7 +3,7 @@ A website of a cafe for the u01-assignment
 
 ## Left to do
 
-- Validate HTML & CSS (Priority)
+- Validate HTML & CSS (Priority) (Done)
 - Make the site responsive.
 - Make mobile menu.
 - Basic accessibility.
