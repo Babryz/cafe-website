@@ -11,6 +11,6 @@ A website of a cafe for the u01-assignment
 
 ### Structural mistakes
 
-- Used section-tag instead of div-tag.
-- Don´t need the article-tags.
-- Don´t forget to fix CSS accordingly!!
+- Used section-tag instead of div-tag. (Done)
+- Don´t need the article-tags. (Fixed were needed)
+- Don´t forget to fix CSS accordingly!! (Done)
