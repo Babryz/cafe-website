@@ -4,9 +4,9 @@ A website of a cafe for the u01-assignment
 ## Left to do
 
 - Validate HTML & CSS (Priority) (Done)
-- Make the site responsive.
+- Make the site responsive. (Done)
 - Make mobile menu.
-- Basic accessibility.
+- Basic accessibility. (Done)
 - Put up on your own domain?
 
 ### Structural mistakes

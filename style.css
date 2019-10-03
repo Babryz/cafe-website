@@ -116,7 +116,7 @@ h3 {
     display: flex;
 }
 
-video {
+iframe {
     border-radius: 10px;
     border: 1px solid black;
     background-color: black;
@@ -128,6 +128,7 @@ video {
 embed {
     height: 900px;
     border-radius: 10px;
+
 }
 
 .pdf {
@@ -139,6 +140,7 @@ embed {
     display: flex;
         justify-content: center;
         flex-direction: column;
+        align-items: center;
 }
 
 .pdf>h3 {
@@ -179,5 +181,19 @@ footer {
 
 .labels {
     align-self: flex-end;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+     p {
+         font-size: 15px;
+     }
+
+     .lower-nav>p>a {
+         font-size: 15px;
+     }
+
+     embed {
+         
+     }
  }
 
