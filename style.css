@@ -184,13 +184,18 @@ footer {
     align-self: flex-end;
  }
  
- @media only screen and (max-width: 600px) {
-     p {
+ @media only screen and (max-width: 600px) { 
+    
+    p {
          font-size: 15px;
      }
 
      .heading>h1 {
          font-size: 30px;
+     }
+
+     .main-menu>h2 {
+         font-size: 25px;
      }
 
      h3 {
@@ -208,5 +213,34 @@ footer {
      embed {
          width: 90%
      }
+ }
+
+ @media only screen and (max-width: 425px) {
+    .lower-nav>p>a {
+        font-size: 10px;
+    }
+
+    .copyright>p {
+        font-size: 10px;
+    }
+
+    .main-menu>h2 {
+        font-size: 20px;
+    }
+    
+    header {
+        display: flex;
+            flex-direction: column;
+    }
+ }
+
+ @media only screen and (max-width: 330px) {
+    .lower-nav>p>a {
+        font-size: 9px;
+    }
+
+    .copyright>p {
+        font-size: 9px;
+    }
  }
 
